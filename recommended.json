@@ -1,0 +1,30 @@
+{
+  "extends": [
+    "eslint:recommended",
+    "plugin:flowtype/recommended",
+    "plugin:react/recommended"
+  ],
+  "env": {
+    "es6": true
+  },
+  "parser": "babel-eslint",
+  "rules": {
+    "array-bracket-spacing": [2, "never"],
+    "arrow-parens": ["error", "always"],
+    "comma-dangle": [2, "always-multiline"],
+    "eol-last": [2, "never"],
+    "indent": [2, 2, {"SwitchCase":1}],
+    "no-console": ["warn"],
+    "no-multiple-empty-lines": 2,
+    "object-curly-spacing": [2, "never"],
+    "quotes": [2, "single", {"avoidEscape": true, "allowTemplateLiterals": true}],
+    "semi": [2, "never"],
+    "display-name": 0,
+    "flowtype/delimiter-dangle": [2, "always-multiline"],
+    "flowtype/semi": [2, "never"]
+  },
+  "plugins": [
+    "react",
+    "flowtype"
+  ]
+}
